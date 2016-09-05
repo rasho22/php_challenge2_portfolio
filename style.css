@@ -1,8 +1,8 @@
-
-*{
-  font-family: Lato, sans-serif;
-  padding: 0px;
-  margin: 0px;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
 }
 body{
   min-width: 100%;
@@ -10,9 +10,24 @@ body{
 }
 
 /* navbar*/
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	overflow: hidden;
+    opacity: 0,5;
+    background-color: green;
+}
+	
+h1:hover{
+	overflow: hidden;
+    opacity: 1;
+    background-color: #24890D;
+}
+h3:hover{
+	overflow: hidden;
+    opacity: 1;
+    background-color: #24890D;
+}
 .container-fluid{
 	height: 130px;
-	border: solid red 2px;
 }
 .navbar-brand{
 	line-height: 0px;
@@ -25,7 +40,7 @@ body{
 }
 
 .navbar-nav{
-	font-size: 18px;
+	font-size: 20px;
 	float: right;
 	padding-top: 65px;
 }
@@ -33,6 +48,14 @@ body{
 	padding: 10px;
 }
 
+.navbar-nav > li > a:hover {
+	overflow: hidden;
+    opacity: 1;
+    background-color: #24890D;
+}
+.navbar-inverse{
+	background-color: black;
+}
 /* section centrale (image) */
 
 .container{
@@ -40,41 +63,69 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
-        
-#sectioncentral{
-	height: 390px;
-	border: solid green 2px;
+
+/*   carrousel  */
+#carrousel{
+   padding-top: 120px;
+   width: 100%;
+   height: 700px;
+   overflow: hidden;
+   border: 5px solid #F2F2F2;
 }
-#sectioncentral img{
-	width:100%;
+
+#carrousel ul{
+   width: 100%;
+   height: 700px;
+   padding:0; margin:0;
+   list-style: none;
+
 }
+#carrousel ul li{
+	float: left;
+}
+
 /*  section sous-image  */
-#glyphicon{
-	height: 200px;
-	border: solid black 2px;
+#blockcentral{
+	height: 300px;
+	width: 100%;
 	
 }
 #bibliographie{
 	
-	height: 200px;
+	height: 300px;
 }
 #bibliographie img{
-	height: 200px;
+	height: 300px;
+	margin-left: 80px;
 }
 
-#Démonstration{
-	height: 200px;
+.Démonstration{
+	height: 300px;
 }
-#Démonstration img{
-	height: 200px;
+.Démonstration img{
+	height: 300px;
+
 }
 
 #conntacte{
-	height: 200px;
+	height: 300px;
 
 }
 #conntacte img{
-	height: 200px;
+	height: 300px;
+	margin-left: 150px;
+}
+#button3{
+	margin-left: 210px;
+	margin-top: 20px;
+}
+#button2{
+	margin-left: 150px;
+	margin-top: 20px;
+}
+#button1{
+	margin-left: 150px;
+	margin-top: 20px;
 }
 
 /* fotter */
@@ -83,5 +134,12 @@ body{
 	text-align: center;
 	color: white;
 	height: 80px;
+	margin-top: 80px;
 	padding-top: 20px;
+	font-size: 18px;
+}
+#fotter:hover{
+	overflow: hidden;
+    opacity: 1;
+    color: #24890D;
 }
