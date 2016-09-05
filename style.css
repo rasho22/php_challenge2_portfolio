@@ -1,0 +1,87 @@
+
+*{
+  font-family: Lato, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/* navbar*/
+.container-fluid{
+	height: 130px;
+	border: solid red 2px;
+}
+.navbar-brand{
+	line-height: 0px;
+	padding-left: 100px;
+	text-align: center;
+}
+.navbar-brand h3{
+	padding: 0 0 0 0px;
+	margin: 0 0 0 0px;
+}
+
+.navbar-nav{
+	font-size: 18px;
+	float: right;
+	padding-top: 65px;
+}
+.navbar-nav > li{
+	padding: 10px;
+}
+
+/* section centrale (image) */
+
+.container{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+        
+#sectioncentral{
+	height: 390px;
+	border: solid green 2px;
+}
+#sectioncentral img{
+	width:100%;
+}
+/*  section sous-image  */
+#glyphicon{
+	height: 200px;
+	border: solid black 2px;
+	
+}
+#bibliographie{
+	
+	height: 200px;
+}
+#bibliographie img{
+	height: 200px;
+}
+
+#Démonstration{
+	height: 200px;
+}
+#Démonstration img{
+	height: 200px;
+}
+
+#conntacte{
+	height: 200px;
+
+}
+#conntacte img{
+	height: 200px;
+}
+
+/* fotter */
+#fotter{
+	background-color: black;
+	text-align: center;
+	color: white;
+	height: 80px;
+	padding-top: 20px;
+}
