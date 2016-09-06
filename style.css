@@ -4,10 +4,12 @@
   padding: 0px;
   margin: 0px;
 }
+
 body{
-  min-width: 100%;
-  max-width: 100%;
+	min-width: 100%;
+	max-width: 100%;
 }
+
 
 /* navbar*/
 .container-fluid{
@@ -47,6 +49,8 @@ body{
 }
 #sectioncentral img{
 	width:100%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 /*  section sous-image  */
 #glyphicon{
