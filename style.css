@@ -58,6 +58,7 @@ h3:hover{
 .navbar-inverse{
 	background-color: black;
 }
+
 /* section centrale (image) */
 
 .container{
@@ -98,7 +99,7 @@ h3:hover{
 }
 #bibliographie img{
 	height: 300px;
-	margin-left: 80px;
+	margin-left: 50px;
 }
 
 .Démonstration{
