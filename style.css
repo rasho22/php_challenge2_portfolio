@@ -6,18 +6,23 @@
 	margin: 0px;
 
 }
-
-/* navbar*/
+/***************************************************************/
+							/* navbar*/
+/***************************************************************/
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
 	overflow: hidden;
     opacity: 0,5;
     background-color: green;
-    color: white;
+   
 }
 h3{
 	font-family: 'Great Vibes';
 	font-size: 25px;
 	color: white;
+	padding-left: 35px;
 }
 h3:hover{
 	overflow: hidden;
@@ -36,10 +41,13 @@ h3:hover{
 .navbar-nav{
 	font-size: 20px;
 	float: right;
-	padding-top: 65px;
+	padding-top: 60px;
+	margin-right: -50px;
+
 }
 .navbar-nav > li{
 	padding: 10px;
+
 }
 
 .navbar-nav > li > a:hover {
@@ -49,32 +57,41 @@ h3:hover{
 }
 .navbar-inverse{
 	background-color: black;
+
 }
 
+/***************************************************************/
+					/*   carrousel  */
+/***************************************************************/
 
-/*   carrousel  */
 #carrousel{
-   padding-top: 120px;
+   padding-top: 100px;
    width: 100%;
-   height: 700px;
+   height: 650px;
    overflow: hidden;
    border: 5px solid #F2F2F2;
+
 }
 
 #carrousel ul{
    width: 100%;
    height: 700px;
-   padding:0; margin:0;
-   list-style: none;
+   padding: 0px 0px 0px 0px!important;
+   margin:0;
+   /*list-style: none;*/
 
 }
 #carrousel ul li{
 	float: left;
 }
+#carrousel img{
+	width: 100%;
+}
 
 
-
-/* block sous carrousel*/
+/***************************************************************/
+					/* block sous carrousel*/
+/***************************************************************/
 
 .col-md-4 col-sm-12 col-xs-12{
 	width: 100%;
@@ -96,6 +113,7 @@ h3:hover{
 	width: 100%;
 
 }
+
 #Démonstration img:hover{
 	opacity:0.6; 
 	color:#f05f40;
@@ -105,7 +123,7 @@ h3:hover{
 	height: 300px;
 	width: 100%;
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 30px;
 }
 
 #contacte img:hover{
@@ -118,18 +136,35 @@ h3:hover{
 	margin-top: 30px;
 	position: absolute;;
 }
+#button3:active {
+	background-color: red;
+	transform: translateY(4px);
+}
+
 #button2{
-	margin-left: 60px;
+	margin-left: 80px;
 	margin-top: 30px;
 	position: absolute;
 }
+#button2:active {
+	background-color: red;
+	transform: translateY(4px);
+}
+
 #button1{
 	margin-left: 80px;
 	margin-top: 30px;
 	position: absolute;
 }
 
-/* fotter */
+#button1:active {
+	background-color: red;
+	transform: translateY(4px);
+}
+
+/***************************************************************/
+							/* fotter */
+/***************************************************************/
 #fotter{
 	background-color: black;
 	text-align: center;

@@ -10,7 +10,7 @@ $(document).ready(function () {
    //animation réseaux socio
    $( "#button3" ).click(function() {
   		$( "#rezo" ).animate({
-    		opacity: 0.25,
+    		opacity: 0.5,
     		left: "+=50",
     		height: "toggle"
  		 }, 5000, function() {
@@ -31,16 +31,14 @@ $(document).ready(function () {
 // animation cv
 $( "#button1" ).click(function() {
   		$( "#cv" ).animate({
-    		opacity: 0.25,
+    		opacity:0.6,
     		left: "+=50",
     		height: "toggle"
  		 }, 5000, function() {
+       
   		});
 	});
 
-//changer la coulore des buttons
-    $("button").mouseenter(function(){
-        $(this).toggleClass("background");
-    });
 
+ 
 });

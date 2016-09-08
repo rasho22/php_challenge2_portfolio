@@ -2,15 +2,18 @@
 <head>
 	<title>Portfolio AbdulRahman RASHO</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	 	<link rel="stylesheet" type="text/css" href="style.css">
-		 <script type="text/javascript"  href="js/jquery.min.js" ></script>
+        <script type="text/javascript" href="bootstrap/js/bootstrap.min.js"></script>
+		  <script type="text/javascript"  href="js/jquery.min.js" ></script>
 	       <script type="text/javascript" href="js/script.js"></script>
       
 </head>
 <body>
-    	
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12" >>
+   	
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -32,19 +35,23 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+    </div>
+     </div>
 		
 		<!--blockcentral-->
 		<div class="row">
-		<div class="col-md-12 col-sm-12 col-xs-12">
-			<div id="carrousel">
+		<div  class="col-md-12 col-sm-12 col-xs-12">
+			<div  id="carrousel">
+             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				<ul> 
-                    <li><a href="#"><img src="img/challenge2.png"/></a></li>
-                    <li><a href="#"><img src="img/challenge4.png"/></a></li>
-                    <li><a href="#"><img src="img/challenge5.png"/></a></li>
-                    <li><a href="#"><img src="img/quiz.png"/></a></li>
-                    <li><a href="#"><img src="img/fdl.png"/></a></li>
-                    <li><a href="#"><img src="img/mac.png"/></a></li>
+                    <li><a href="#"><img src="img/challenge2.png" class="img-responsive" style="margin:0px auto;"/></a></li>
+                    <li><a href="#"><img src="img/challenge4.png" class="img-responsive" style="margin:0px auto;"/></a></li>
+                    <li><a href="#"><img src="img/challenge5.png" class="img-responsive" style="margin:0px auto;"/></a></li>
+                    <li><a href="#"><img src="img/quiz.png" class="img-responsive" style="margin:0px auto;"/></a></li>
+                    <li><a href="#"><img src="img/fdl.png" class="img-responsive" style="margin:0px auto;"/></a></li>
+                    <li><a href="#"><img src="img/mac.png" class="img-responsive" style="margin:0px auto;"/></a></li>
                 </ul>
+            </div>
 			</div>		
 		</div>
 		</div>
@@ -57,8 +64,10 @@
                 <div id="bibliographie">
                 	<a href="#"><img id="cv" src="img/monimage.jpeg"/></a><br>
                 	<div>
-                        <button id="button1"type="button" class="btn btn-success btn-lg">Ma Bibliographie</button>
+                        <button id="button1"type="button" class="btn btn-success btn-lg btn-responsive">Ma Bibliographie</button>
+                    
                     </div>
+
                 </div>
             </div>
 
@@ -66,7 +75,7 @@
                 <div id="Démonstration">	
                 	<a href="#"><img id="demo" src="img/origami.png"/></a><br>
                 	<div>
-                        <button id="button2" type="button" class="btn btn-success btn-lg"> Démonstration Sites Web  </button>
+                        <button id="button2" type="button" class="btn btn-success btn-lg btn-responsive"> Démonstration Sites Web  </button>
                     </div>
                 </div>
               
@@ -77,8 +86,9 @@
                 <div id="contacte" >
                 	<a href="#"><img id="rezo" src="img/reseaux-sociaux.jpg"/></a><br>
                 	<div>
-                        <button id="button3" type="button" class="btn btn-success btn-lg">Me conntacter</button>
+                        <button id="button3" type="button" class="btn btn-success btn-lg btn-responsive">Me conntacter</button>
                     </div>
+
                 </div>
                 
 
@@ -96,5 +106,7 @@
 
 	<script src="js/jquery-2.2.2.min.js"></script>
 	    <script src="js/script.js"></script>
+
 </body>
 </html>
+
