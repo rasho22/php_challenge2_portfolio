@@ -1,44 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	padding: 0px;
 	margin: 0px;
-}
 
-body{
-	min-width: 100%;
-	max-width: 100%;
 }
-
 
 /* navbar*/
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
 	overflow: hidden;
     opacity: 0,5;
     background-color: green;
+    color: white;
 }
-	
-h1:hover{
-	overflow: hidden;
-    opacity: 1;
-    background-color: #24890D;
+h3{
+	font-family: 'Great Vibes';
+	font-size: 25px;
+	color: white;
 }
 h3:hover{
 	overflow: hidden;
     opacity: 1;
-    background-color: #24890D;
+    color: #24890D;
 }
 .container-fluid{
 	height: 130px;
 }
+
 .navbar-brand{
-	line-height: 0px;
-	padding-left: 100px;
+
 	text-align: center;
-}
-.navbar-brand h3{
-	padding: 0 0 0 0px;
-	margin: 0 0 0 0px;
 }
 
 .navbar-nav{
@@ -59,13 +51,6 @@ h3:hover{
 	background-color: black;
 }
 
-/* section centrale (image) */
-
-.container{
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-}
 
 /*   carrousel  */
 #carrousel{
@@ -87,48 +72,61 @@ h3:hover{
 	float: left;
 }
 
-/*  section sous-image  */
-#blockcentral{
-	height: 300px;
+
+
+/* block sous carrousel*/
+
+.col-md-4 col-sm-12 col-xs-12{
 	width: 100%;
-	
-}
-#bibliographie{
-	
 	height: 300px;
 }
+
 #bibliographie img{
 	height: 300px;
-	margin-left: 50px;
+	padding-left: 20px;
 }
 
-.Démonstration{
-	height: 300px;
-}
-.Démonstration img{
-	height: 300px;
-
+#bibliographie img:hover{
+	opacity:0.6; 
+	color:#f05f40;
 }
 
-#conntacte{
+#Démonstration img{
 	height: 300px;
+	width: 100%;
 
 }
-#conntacte img{
-	height: 300px;
-	margin-left: 150px;
+#Démonstration img:hover{
+	opacity:0.6; 
+	color:#f05f40;
 }
+
+#contacte img{
+	height: 300px;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contacte img:hover{
+	opacity:0.6; 
+	color:#f05f40;
+}
+
 #button3{
-	margin-left: 210px;
-	margin-top: 20px;
+	margin-left: 100px;
+	margin-top: 30px;
+	position: absolute;;
 }
 #button2{
-	margin-left: 150px;
-	margin-top: 20px;
+	margin-left: 60px;
+	margin-top: 30px;
+	position: absolute;
 }
 #button1{
-	margin-left: 150px;
-	margin-top: 20px;
+	margin-left: 80px;
+	margin-top: 30px;
+	position: absolute;
 }
 
 /* fotter */

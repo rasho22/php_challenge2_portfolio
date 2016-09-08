@@ -38,4 +38,9 @@ $( "#button1" ).click(function() {
   		});
 	});
 
+//changer la coulore des buttons
+    $("button").mouseenter(function(){
+        $(this).toggleClass("background");
+    });
+
 });
