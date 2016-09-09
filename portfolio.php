@@ -41,8 +41,7 @@
 		<!--blockcentral-->
 		<div class="row">
 		<div  class="col-md-12 col-sm-12 col-xs-12">
-			<div  id="carrousel">
-             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+             <div  id="carrousel" class="carousel slide" data-ride="carousel">
 				<ul> 
                     <li><a href="#"><img src="img/challenge2.png" class="img-responsive" style="margin:0px auto;"/></a></li>
                     <li><a href="#"><img src="img/challenge4.png" class="img-responsive" style="margin:0px auto;"/></a></li>
@@ -51,8 +50,7 @@
                     <li><a href="#"><img src="img/fdl.png" class="img-responsive" style="margin:0px auto;"/></a></li>
                     <li><a href="#"><img src="img/mac.png" class="img-responsive" style="margin:0px auto;"/></a></li>
                 </ul>
-            </div>
-			</div>		
+            </div>		
 		</div>
 		</div>
 
@@ -63,10 +61,10 @@
 
                 <div id="bibliographie">
                 	<a href="#"><img id="cv" src="img/monimage.jpeg"/></a><br>
-                	<div>
+                
                         <button id="button1"type="button" class="btn btn-success btn-lg btn-responsive">Ma Bibliographie</button>
                     
-                    </div>
+                  <h5 id="txt" style="display: none">je suis un test</h5>
 
                 </div>
             </div>
@@ -74,9 +72,9 @@
             <div  class="col-md-4 col-sm-12 col-xs-12">
                 <div id="Démonstration">	
                 	<a href="#"><img id="demo" src="img/origami.png"/></a><br>
-                	<div>
+                	
                         <button id="button2" type="button" class="btn btn-success btn-lg btn-responsive"> Démonstration Sites Web  </button>
-                    </div>
+                
                 </div>
               
 
@@ -85,9 +83,9 @@
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div id="contacte" >
                 	<a href="#"><img id="rezo" src="img/reseaux-sociaux.jpg"/></a><br>
-                	<div>
+                	
                         <button id="button3" type="button" class="btn btn-success btn-lg btn-responsive">Me conntacter</button>
-                    </div>
+                
 
                 </div>
                 

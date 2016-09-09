@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	// le  carrousel
+	// le  carousel
    setInterval(function(){
       $("#carrousel ul").animate({marginLeft:-350},800,function(){
         $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
@@ -35,10 +35,11 @@ $( "#button1" ).click(function() {
     		left: "+=50",
     		height: "toggle"
  		 }, 5000, function() {
-       
+       $("#txt").show();
   		});
 	});
 
 
  
 });
+

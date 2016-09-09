@@ -161,7 +161,10 @@ h3:hover{
 	background-color: red;
 	transform: translateY(4px);
 }
-
+#txt{
+	text-align: center;
+	padding-top: 70px;
+}
 /***************************************************************/
 							/* fotter */
 /***************************************************************/
