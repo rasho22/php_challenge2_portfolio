@@ -1,184 +1,162 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 * {
 	font-family:'Open Sans', sans-serif;
 	padding: 0px;
 	margin: 0px;
 
 }
-/***************************************************************/
-							/* navbar*/
-/***************************************************************/
-.navbar-inverse .navbar-nav > li > a{
+
+.container{
+	width: 100%;
+	background-color: #E8E8E8;
+}
+/****************************************************/
+/***************** navbar***************************/
+
+
+.navbar-inverse{
+	background-color: black;
+
+}
+.container-fluid > .navbar-header{
+	text-align: center;
+	padding-left: 80px;
+}
+
+.container-fluid > .navbar-header:hover{
+	overflow: hidden;
+    opacity: 0,5;
+    background-color: green;
+}
+
+.container-fluid > .navbar-header h2 a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Great Vibes';
+}
+
+.navbar-nav{
+	font-size: 20px;
+	float: right;
+}
+
+.navbar-nav li{
+	padding-top: 50px;
+	padding-left: 5px;
+	
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a{
 	color: white;
 }
+
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
 	overflow: hidden;
     opacity: 0,5;
     background-color: green;
    
 }
-h3{
-	font-family: 'Great Vibes';
-	font-size: 25px;
-	color: white;
-	padding-left: 35px;
-}
-h3:hover{
-	overflow: hidden;
-    opacity: 1;
-    color: #24890D;
-}
-.container-fluid{
-	height: 130px;
-}
 
-.navbar-brand{
+/*****page d'accueil*************************/
 
-	text-align: center;
-}
+/******carousel*****************************/
 
-.navbar-nav{
-	font-size: 20px;
-	float: right;
-	padding-top: 60px;
-	margin-right: -50px;
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      height: 460px
+  }
 
-}
-.navbar-nav > li{
-	padding: 10px;
-
-}
-
-.navbar-nav > li > a:hover {
-	overflow: hidden;
-    opacity: 1;
-    background-color: #24890D;
-}
-.navbar-inverse{
-	background-color: black;
-
+.carousel{
+	margin-top: 120px;
+	margin-bottom: 10px;
 }
 
 /***************************************************************/
-					/*   carrousel  */
+							/* footer */
 /***************************************************************/
-
-#carrousel{
-   padding-top: 100px;
-   width: 100%;
-   height: 650px;
-   overflow: hidden;
-   border: 5px solid #F2F2F2;
-
-}
-
-#carrousel ul{
-   width: 100%;
-   height: 700px;
-   padding: 0px 0px 0px 0px!important;
-   margin:0;
-   /*list-style: none;*/
-
-}
-#carrousel ul li{
-	float: left;
-}
-#carrousel img{
-	width: 100%;
-}
-
-
-/***************************************************************/
-					/* block sous carrousel*/
-/***************************************************************/
-
-.col-md-4 col-sm-12 col-xs-12{
-	width: 100%;
-	height: 300px;
-}
-
-#bibliographie img{
-	height: 300px;
-	padding-left: 20px;
-}
-
-#bibliographie img:hover{
-	opacity:0.6; 
-	color:#f05f40;
-}
-
-#Démonstration img{
-	height: 300px;
-	width: 100%;
-
-}
-
-#Démonstration img:hover{
-	opacity:0.6; 
-	color:#f05f40;
-}
-
-#contacte img{
-	height: 300px;
-	width: 100%;
-	padding-left: 20px;
-	padding-right: 30px;
-}
-
-#contacte img:hover{
-	opacity:0.6; 
-	color:#f05f40;
-}
-
-#button3{
-	margin-left: 100px;
-	margin-top: 30px;
-	position: absolute;;
-}
-#button3:active {
-	background-color: red;
-	transform: translateY(4px);
-}
-
-#button2{
-	margin-left: 80px;
-	margin-top: 30px;
-	position: absolute;
-}
-#button2:active {
-	background-color: red;
-	transform: translateY(4px);
-}
-
-#button1{
-	margin-left: 80px;
-	margin-top: 30px;
-	position: absolute;
-}
-
-#button1:active {
-	background-color: red;
-	transform: translateY(4px);
-}
-#txt{
-	text-align: center;
-	padding-top: 70px;
-}
-/***************************************************************/
-							/* fotter */
-/***************************************************************/
-#fotter{
+#footer{
 	background-color: black;
 	text-align: center;
 	color: white;
 	height: 80px;
-	margin-top: 80px;
 	padding-top: 20px;
 	font-size: 18px;
+	margin-top: 30px;
 }
-#fotter:hover{
+#footer:hover{
 	overflow: hidden;
     opacity: 1;
     color: #24890D;
 }
+
+  /*********************************************/
+           /***  images  page démostration****/
+#img{
+	margin-top: 120px;
+
+}
+
+.img-responsive{
+	height: 250px;
+	margin:0px auto;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+.img-responsive:hover{
+	opacity:0.6; 
+	color:#f05f40;
+    height: 250px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+/*************************************************************/
+/*************cv**********************************************/
+
+#leftblock{
+	padding-left: 50px;
+	padding-right: 100px;
+}
+.imgcv img{
+	margin-top: 110px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-left: 100px;	
+}
+
+.phrasecle p{
+	background-color: white;
+	border: 2px solid;
+	padding: 5px;
+}
+
+h3{
+	border:2px solid green;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #C6CEAF;
+}
+
+#rightblock{
+	margin-top: 110px;
+	padding-left: 50px;
+}
+p{
+	font-size: 16px;
+	color: black;
+	line-height: 20px;
+}
+#leftblock #rightblock ul{
+	padding-left: 15px;
+	font-size: 14px;
+	color: black;
+	line-height: 30px;
+}
+ul{
+	padding-left: 15px;
+}
+
