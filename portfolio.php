@@ -13,13 +13,12 @@
 </head>
 <body>
 
-<div class="container">
-  <div class="container-fluid">
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <div class="container">
+        <div class="container-fluid">
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav" aria-expanded="false" aria-controls="navbar">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
@@ -28,11 +27,11 @@
                   </button>
           <h2><a href="portfolio.php">Portfolio<br/> Abdul Rahman RASHO</a></h2>
         </div>
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" id="mynav">
           <li><a href="portfolio.php">Home</a></li>
-          <li><a href="cv.php">Bibliographie</a></li>
-          <li><a href="démonstration.php">Démonstration</a></li>
-          <li><a href="#">techno</a></li>
+          <li><a href="cv.php">Biographie</a></li>
+          <li><a href="démonstration.php">Projects</a></li>
+          <li><a href="#">technos</a></li>
           <li> <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>  
           <li> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li> <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -50,7 +49,7 @@
       <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
+    <!-- slides -->
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
@@ -93,11 +92,46 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Suivant</span>
     </a>
-  </div>
+  </div><br/>
+
+  <!--technos   -->
+            <div class="row" >
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <h4> Front end:</h4>
+               <div class="hr1"><hr/></div>
+                 <img src="">
+                 <img src="">
+                 <img src="">
+                 <img src="">
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <h4> Back end:</h4>
+               <div class="hr1"><hr/></div>
+                 <img src="">
+                 <img src="">
+                 <img src="">
+                 <img src="">
+              </div>
+            </div>
+  <!--    contact  -->
+        <div class="row">
+        <h4> Contacter moi:</h4>
+        <div class="hr"><hr/></div>
+        <div id="mail"class="col-md-6 col-sm-12 col-xs-12">
+           <i class="fa fa-envelope"></i>
+           <p>rasho80@hotmail.com</p>
+           <p>ab_rasho@yahoo.fr</p>
+        </div>
+        <div id="phone" class="col-md-6 col-sm-12 col-xs-12">
+          <i class="fa fa-phone"></i>
+           <p>06.52.82.18.72</p> 
+        </div>              
+        </div>
+
 
           <!--  footer  -->
         <div id="footer" class="row">
-            <div  class="col-sm-12 col-xs-12">
+          <div  class="col-sm-12 col-xs-12">
                 <h5>Copyright Abdul Rahman RASHO © 2016 </h5>
             </div>
                      

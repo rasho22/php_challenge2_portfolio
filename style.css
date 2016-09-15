@@ -72,6 +72,48 @@
 	margin-top: 120px;
 	margin-bottom: 10px;
 }
+.carousel-control.right, .carousel-control.left {
+background-image:none;
+}
+/*******page d'accueil***************************/
+/************sectio technos***************/
+.hr1{
+	margin-left: 300px;
+	width: 100px;
+	height: 2px;
+	border: 2px solid green;
+}
+/***********page d'accueil************************/
+/******* section contact*****************/
+h4{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px;
+}
+#phone{
+	padding-top: 20px;
+	padding-left: 200px;
+}
+.fa-phone{
+	font-size: 30px;
+	padding-left: 35px;
+	color: green;
+}
+#mail{
+	padding-top: 20px;
+	padding-left: 300px;
+}
+.fa-envelope{
+	padding-left: 45px;
+	font-size: 30px;
+	color: green;
+}
+.hr{
+	margin-left: 600px;
+	width: 100px;
+	height: 2px;
+	border: 2px solid green;
+}
 
 /***************************************************************/
 							/* footer */
@@ -110,10 +152,11 @@
     height: 250px;
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
+   /* box-shadow: inset 0 0 0 450px rgba(0,0,0, 0.4);*/
 }
 
 /*************************************************************/
-/*************cv**********************************************/
+/*************page cv**********************************************/
 
 #leftblock{
 	padding-left: 50px;
@@ -145,7 +188,7 @@ h3{
 	margin-top: 110px;
 	padding-left: 50px;
 }
-p{
+#leftblock #rightblock p{
 	font-size: 16px;
 	color: black;
 	line-height: 20px;

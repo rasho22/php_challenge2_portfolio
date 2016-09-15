@@ -25,9 +25,9 @@
         	</div>
         		<ul class="nav navbar-nav">
 	          		<li><a href="#">Home</a></li>
-	          		<li><a href="cv html/cv.html">Bibliographie</a></li>
-	          		<li><a href="démonstration.php">Démonstration</a></li>
-	          		<li><a href="#">techno</a></li>
+	          		<li><a href="cv html/cv.html">Biographie</a></li>
+	          		<li><a href="démonstration.php">Projects</a></li>
+	          		<li><a href="#">technos</a></li>
 	          		<li> <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>  
 	          		<li> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 	          		<li> <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
