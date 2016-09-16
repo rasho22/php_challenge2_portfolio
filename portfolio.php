@@ -14,7 +14,6 @@
 <body>
 
       <div class="container">
-        <div class="container-fluid">
           <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
               <div class="navbar-header">
@@ -38,81 +37,77 @@
         </ul>
       </div>
     </nav>
-    </div>
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- slides -->
-    <div class="carousel-inner" role="listbox">
-
-      <div class="item active">
-        <img src="img/fdl.png"  width="460" height="345">
-        <div class="carousel-caption">
-         
-          <hp>Projet prefessionel/Fedala décoration & traiteur .</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="img/challenge2.png"  width="460" height="345">
-        <div class="carousel-caption">
-          <p>Pastime</p>
-        </div>
-      </div>
     
-      <div class="item">
-        <img src="img/challenge5.png"  width="460" height="345">
-        <div class="carousel-caption">
-          <p>Flowers</p>
-        </div>
-      </div>
+    <!-- carousel-->
+   
+ <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+              <!-- Indicators --> 
+              <ol class="carousel-indicators"> 
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+                <li data-target="#myCarousel" data-slide-to="1"></li> 
+                <li data-target="#myCarousel" data-slide-to="2"></li> 
+                <li data-target="#myCarousel" data-slide-to="3"></li> 
+              </ol> 
+ 
+          <!-- slides --> 
+            <div class="carousel-inner" role="listbox"> 
+ 
+              <div class="item active"> 
+                <img src="img/fdl.png"  width="460" height="345"> 
+                <div class="carousel-caption"> 
+                  <p><a href="#">Projet prefessionel/Fedala Décoration & Traiteur</a></p> 
+                </div> 
+              </div> 
+ 
+              <div class="item"> 
+                <img src="img/challenge2.png"  width="460" height="345"> 
+                <div class="carousel-caption"> 
+                  <p><a href="#">Challenge Pastime /html et css</a></p> 
+                </div> 
+              </div> 
+     
+              <div class="item"> 
+                <img src="img/challenge5.png"  width="460" height="345"> 
+                <div class="carousel-caption"> 
+                  <p><a href="#">Challenge Progeny MMXIV /bottstrap</a></p> 
+                </div> 
+              </div> 
+ 
+              <div class="item"> 
+                <img src="img/mac.png"  width="460" height="345"> 
+                <div class="carousel-caption"> 
+                  <p><a href="#">TEAM{AC-GYVER INC;}</a></p> 
+                </div> 
+              </div> 
+            </div> 
+ 
+    <!-- Left and right controls --> 
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> 
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+              <span class="sr-only">Précedent</span> 
+            </a> 
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> 
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> 
+              <span class="sr-only">Suivant</span> 
+            </a> 
+          </div><br/> 
 
-      <div class="item">
-        <img src="img/mac.png"  width="460" height="345">
-        <div class="carousel-caption">
-          <p>Flowers</p>
-        </div>
-      </div>
-  
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Précedent</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Suivant</span>
-    </a>
-  </div><br/>
-
-  <!--technos   -->
-            <div class="row" >
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <h4> Front end:</h4>
-               <div class="hr1"><hr/></div>
-                 <img src="">
-                 <img src="">
-                 <img src="">
-                 <img src="">
-              </div>
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <h4> Back end:</h4>
-               <div class="hr1"><hr/></div>
-                 <img src="">
-                 <img src="">
-                 <img src="">
-                 <img src="">
-              </div>
-            </div>
+  <!--technos   --> 
+          <div id="technos" class="row" > 
+            <h4>Langages Techniques</h4> 
+            <div class="hr"><hr/></div> 
+              <div class="col-md-6 col-sm-12 col-xs-12"> 
+                 <img src="img/html5.png" class="imgtechnos"> 
+                 <img src="img/css3.png" class="imgtechnos"> 
+                 <img src="img/javascript_logo.png" class="imgtechnos"> 
+              </div> 
+              <div class="col-md-6 col-sm-12 col-xs-12"> 
+                 <img src="img/php.png" class="imgtechnos"> 
+                 <img src="img/mysql.png" class="imgtechnos"> 
+                 <img src="img/WordPress_logo4.jpg" class="imgtechnos"> 
+              </div> 
+            </div> 
   <!--    contact  -->
         <div class="row">
         <h4> Contacter moi:</h4>

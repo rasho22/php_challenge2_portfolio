@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 * {
+
 	font-family:'Open Sans', sans-serif;
 	padding: 0px;
 	margin: 0px;
@@ -10,8 +11,8 @@
 	width: 100%;
 	background-color: #E8E8E8;
 }
-/****************************************************/
-/***************** navbar***************************/
+				/****************************************************/
+				/***************** navbar***************************/
 
 
 .navbar-inverse{
@@ -33,6 +34,7 @@
 	color: white;
 	text-decoration: none;
 	font-family: 'Great Vibes';
+	/*font-family: 'Great Vibes';*/
 }
 
 .navbar-nav{
@@ -41,6 +43,7 @@
 }
 
 .navbar-nav li{
+	font-family: 'GreatVibes', sans-serif;
 	padding-top: 50px;
 	padding-left: 5px;
 	
@@ -57,9 +60,9 @@
    
 }
 
-/*****page d'accueil*************************/
+				/*****page d'accueil*************************/
 
-/******carousel*****************************/
+				/******carousel*****************************/
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -73,22 +76,59 @@
 	margin-bottom: 10px;
 }
 .carousel-control.right, .carousel-control.left {
-background-image:none;
+	background-image:none;
+	margin-right: 30px;
+	margin-left: 30px;
 }
-/*******page d'accueil***************************/
-/************sectio technos***************/
-.hr1{
-	margin-left: 300px;
-	width: 100px;
-	height: 2px;
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev:hover{
+	color:green; 
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev:hover{
+	color: green;
+}
+
+.carousel-caption{
+	padding-bottom: 20px;
+}
+.carousel-caption p a{
+	color: black;
+	font-size: 16px;
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+
+					/*******page d'accueil***************************/
+					/************sectio technos***************/
+
+#technos{
+	height: 300px;
+	background-color: white;
 	border: 2px solid green;
+}
+
+.imgtechnos{
+	padding-top: 30px;
+	width: 30%;
+	height: 200px;
+}
+.imgtechnos:hover{
+	opacity:0.6; 
+	color:#f05f40;
+    height: 150px;
+	 -webkit-transform: rotateY(45deg);
 }
 /***********page d'accueil************************/
 /******* section contact*****************/
+#contact{
+	margin-top: 10px;
+}
 h4{
+	font-family: 'Great Vibes';
 	text-align: center;
 	font-size: 20px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 #phone{
 	padding-top: 20px;
@@ -97,6 +137,7 @@ h4{
 .fa-phone{
 	font-size: 30px;
 	padding-left: 35px;
+	padding-bottom: 10px;
 	color: green;
 }
 #mail{
@@ -104,7 +145,8 @@ h4{
 	padding-left: 300px;
 }
 .fa-envelope{
-	padding-left: 45px;
+	padding-left: 35px;
+	padding-bottom: 10px;
 	font-size: 30px;
 	color: green;
 }
@@ -125,7 +167,7 @@ h4{
 	height: 80px;
 	padding-top: 20px;
 	font-size: 18px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 #footer:hover{
 	overflow: hidden;
@@ -150,9 +192,8 @@ h4{
 	opacity:0.6; 
 	color:#f05f40;
     height: 250px;
-    -webkit-transform: rotate(360deg); /* Safari */
+    -webkit-transform: rotate(360deg); 
     transform: rotate(360deg);
-   /* box-shadow: inset 0 0 0 450px rgba(0,0,0, 0.4);*/
 }
 
 /*************************************************************/
