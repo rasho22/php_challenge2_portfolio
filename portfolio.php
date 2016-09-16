@@ -4,10 +4,10 @@
   <title>Portfolio AbdulRahman RASHO</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -29,8 +29,8 @@
         <ul class="nav navbar-nav" id="mynav">
           <li><a href="portfolio.php">Home</a></li>
           <li><a href="cv.php">Biographie</a></li>
-          <li><a href="démonstration.php">Projects</a></li>
-          <li><a href="#">technos</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="technos.php">technos</a></li>
           <li> <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>  
           <li> <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li> <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -38,7 +38,7 @@
       </div>
     </nav>
 
-    
+
     <!-- carousel-->
    
  <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
@@ -95,7 +95,9 @@
 
   <!--technos   --> 
           <div id="technos" class="row" > 
-            <h4>Langages Techniques</h4> 
+            <marquee direction="right" behavoir="alternate">
+              <h4><a href="technos.php">Langages Techniques</a></h4> 
+            </marquee>
             <div class="hr"><hr/></div> 
               <div class="col-md-6 col-sm-12 col-xs-12"> 
                  <img src="img/html5.png" class="imgtechnos"> 
@@ -109,18 +111,21 @@
               </div> 
             </div> 
   <!--    contact  -->
-        <div class="row">
-        <h4> Contacter moi:</h4>
-        <div class="hr"><hr/></div>
-        <div id="mail"class="col-md-6 col-sm-12 col-xs-12">
-           <i class="fa fa-envelope"></i>
-           <p>rasho80@hotmail.com</p>
-           <p>ab_rasho@yahoo.fr</p>
-        </div>
-        <div id="phone" class="col-md-6 col-sm-12 col-xs-12">
-          <i class="fa fa-phone"></i>
-           <p>06.52.82.18.72</p> 
-        </div>              
+        <div id="contact" class="row">
+          <marquee direction="left" behavoir="alternate">
+            <h4><a href="cv.php">Contacter moi:</a> </h4>
+          </marquee> 
+          <div class="hr"><hr/></div> 
+            <div id="mail"class="col-md-6 col-sm-12 col-xs-12"> 
+               <i class="fa fa-envelope"></i> 
+               <p><a href="#">rasho80@hotmail.com</a></p> 
+               <p><a href="#">ab_rasho@yahoo.fr</a></p> 
+            </div> 
+ 
+            <div id="phone" class="col-md-6 col-sm-12 col-xs-12"> 
+              <i class="fa fa-phone"></i> 
+               <p><a href="#">06.52.82.18.72</a></p>  
+            </div>
         </div>
 
 
@@ -132,6 +137,7 @@
                      
         </div>
 </div>
-
+<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
