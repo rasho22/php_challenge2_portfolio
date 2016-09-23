@@ -9,6 +9,13 @@ $(".imgtechno").click(function(){
             width: '250px'
         });
     });
+
+$("#mynav").click(function(){
+	$(this).hide();
+})
  
+ $("#mynav").click(function(){
+    $(this).show();
+});
 });
 
