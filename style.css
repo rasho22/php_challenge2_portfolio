@@ -4,7 +4,6 @@
 	font-family:'Open Sans', sans-serif;
 	padding: 0px;
 	margin: 0px;
-
 }
 
 .container{
@@ -19,11 +18,13 @@
 
 .navbar-inverse{
 	background-color: black;
+	margin-bottom: 0px;
 
 }
 .container-fluid > .navbar-header{
 	text-align: center;
-	padding-left: 80px;
+	padding-left: 50px;
+	/*padding-top: 20px;*/
 }
 
 .container-fluid > .navbar-header:hover{
@@ -32,10 +33,11 @@
     background-color: green;
 }
 
-.container-fluid > .navbar-header h2 a{
+.container-fluid > .navbar-header h4 a{
 	color: white;
 	text-decoration: none;
 	font-family: 'Great Vibes';
+
 }
 
 .navbar-nav{
@@ -45,7 +47,6 @@
 
 .navbar-nav li{
 	font-family: 'GreatVibes', sans-serif;
-	padding-top: 50px;
 	padding-left: 5px;
 	
 }
@@ -83,13 +84,6 @@
 	margin-left: 30px;
 }
 
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev:hover{
-	color:green; 
-}
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev:hover{
-	color: green;
-}
-
 .carousel-caption{
 	padding-bottom: 20px;
 }
@@ -104,25 +98,43 @@
 					/*******page d'accueil***************************/
 					/********    sectio technos       ***************/
 					/************************************************/
+@charset "UTF-8";
 
-#technos{
-	height: 300px;
-	background-color: white;
-	border: 2px solid green;
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+.imgtechnos{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .imgtechnos{
-	padding-top: 30px;
-	width: 30%;
-	height: 200px;
+	margin-top: 50px;
+	width: 100%;
+	height: 150px;
+	opacity:0.6; 
 }
 .imgtechnos:hover{
-	opacity:0.6; 
+	opacity:1; 
 	color:#f05f40;
-    height: 150px;
+    height: 200px;
+    width: 200px;
 	 -webkit-transform: rotateY(45deg);
 }
 
+#technos{
+	/*height: 300px;*/
+	background-color: white;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+}
 
 			/***********page d'accueil************************/
 			/*******      section contact       *************/
@@ -130,6 +142,7 @@
 
 #contact{
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 h4{
 	font-family: 'Great Vibes';
@@ -163,6 +176,7 @@ a:focus, a:hover{
 	font-size: 30px;
 	color: green;
 }
+
 .hr{
 	margin-left: 600px;
 	width: 100px;
@@ -178,16 +192,9 @@ a:focus, a:hover{
 	background-color: black;
 	text-align: center;
 	color: white;
-	height: 80px;
-	padding-top: 20px;
 	font-size: 18px;
-	margin-top: 10px;
 }
-#footer:hover{
-	overflow: hidden;
-    opacity: 1;
-    color: #24890D;
-}
+
 
   /*********************************************/
            /***  images  page Projects****/
@@ -215,22 +222,50 @@ a:focus, a:hover{
 /*************   page cv      *******************************/
 /************************************************************/
 
-#leftblock{
-	padding-left: 50px;
-	padding-right: 100px;
+.nom {
+	text-align: center;
+}
+.rezo_sociaux{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.rezo_sociaux a {
+	padding-left: 30px;
 }
 .imgcv img{
+	text-align: center;
 	margin-top: 110px;
-	width: 200px;
 	height: 200px;
 	border-radius: 100px;
-	margin-left: 100px;	
+	margin-bottom: 20px;
+}
+.imgcv img:hover{
+	opacity:0.6; 
+	color:#f05f40;
+}
+.adresse{
+	border:2px solid green;
+	background-color: #C6CEAF;
+	padding-left: 50px;
+	font-size: 16px;
+	color: black;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.adresse .fa-envelope{
+	padding-left: 0px;
+
 }
 
-.phrasecle p{
+.phrasecle{
 	background-color: white;
 	border: 2px solid;
-	padding: 5px;
+	font-size: 16px;
+	color: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 h3{
@@ -240,25 +275,23 @@ h3{
 	padding-bottom: 10px;
 	background-color: #C6CEAF;
 }
+.cv ul{
+	padding-left:50px;
+	font-size: 16px;
+	color: black;
+	line-height: 30px;
+}
 
 #rightblock{
-	margin-top: 110px;
-	padding-left: 50px;
+	margin-top: 90px;
+	padding-right: 60px;
 }
 #leftblock #rightblock p{
 	font-size: 16px;
 	color: black;
 	line-height: 20px;
 }
-#leftblock #rightblock ul{
-	padding-left: 15px;
-	font-size: 14px;
-	color: black;
-	line-height: 30px;
-}
-ul{
-	padding-left: 15px;
-}
+
 
  /*********************************************/
            /***  images  page technos****/

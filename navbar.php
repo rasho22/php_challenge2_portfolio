@@ -10,7 +10,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                   </button>
-                  <h2><a href="portfolio.php">Portfolio<br/> Abdul Rahman RASHO</a></h2>
+                  <h4><a href="portfolio.php">Portfolio Abdul Rahman RASHO</a></h4>
                 </div>
 
                 <ul class="nav navbar-nav" id="mynav">
