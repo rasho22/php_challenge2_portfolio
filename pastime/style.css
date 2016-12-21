@@ -1,0 +1,196 @@
+* {
+	font-family: "News Cycle";
+	margin: 0;
+	padding: 0;
+} 
+
+body {
+	background-color: #EEEEEE;
+}
+
+
+header {
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+    
+}
+
+h1 {
+	font-family: "News Cycle";
+	position: absolute;
+	margin-top: 20px;
+
+}
+
+ul {
+	height: 100px;
+	list-style-type: none;
+	margin: 0;
+	float: right;
+}
+
+li {
+	display: inline-block;
+	font-size: 14px;
+	padding-top: 27px;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+
+}
+
+h2 {
+	font-size: 55px;
+	color: white;
+	text-align: center;
+
+}
+
+h3 {
+	font-size: 22px;
+	color: white;
+	opacity: 0.6;
+	font-weight: normal;
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+p {
+	font-size: 17px;
+}
+
+a:hover {
+    color:#27AE61;
+}
+
+.top {
+	
+	height: 830px;
+	text-align: center; 
+	background-color: #27AE61;
+	background-image: url("images/banner.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.contenu {
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.photos {
+	width: 1000px;
+	text-align: center;
+	margin: 3% auto;
+	
+
+}
+
+img {
+	display: inline-block;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin: 2%;
+	margin-top: 140px;
+
+}
+
+.text {
+	color: white;
+	letter-spacing: 1;
+	opacity: 0.8;
+	margin-bottom: 5%;
+}
+
+.buttontop {
+	background-color: #2B3F48;
+	border: none;
+	color: white;
+	padding: 13px 50px;
+	font-size: 17px;
+	letter-spacing: 3px;
+	border-radius: 8px;
+	
+}
+
+section {
+	height: 830px;
+}
+
+#midh2 {
+	color: black;
+	opacity: 0.75;
+	padding-top: 15%;
+}
+
+#midh3 {
+	color: black;
+	opacity: 0.75;
+	margin-bottom: 4em;
+
+}
+
+#midp{
+	color: black;
+	margin-bottom: 115px;
+}
+
+
+
+.buttonmidil {
+	background-color: #27AE61;
+	color: white;
+	border: none;
+	padding: 13px 50px;
+	border-radius: 8px;
+	font-size: 17px;
+	letter-spacing: 3px;
+}
+/* partie bootom*/
+#bottom {
+	background-color: #27AE61;
+}
+
+#both2 {
+	padding-top: 15%;
+}
+
+#both3 {
+	margin-bottom: 4em;
+}
+
+.buttonbottom {
+	background-color: white;
+	color: #27AE61;
+	border: none;
+	padding: 13px 50px;
+	border-radius: 8px;
+	font-size: 17px;
+	letter-spacing: 3px;
+	margin-top: 65px;
+}
+/*partie footer*/
+.droits {
+	width: 100%;
+	height: 215px;
+	text-align: center;	
+}
+
+#footer {
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	opacity: 0.5;
+	margin-top: 125px;
+	text-transform: uppercase;
+	

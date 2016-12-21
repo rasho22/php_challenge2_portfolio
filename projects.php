@@ -20,7 +20,7 @@
       	<div class="container-fluid">
       		<div id="img" class="row">
       			<div class="col-md-4 col-sm-6 col-xs-12">
-      				<a href="#"><img src="img/challenge2.png" class="img-responsive"/></a>
+      				<a href="pastime"><img src="img/challenge2.png" class="img-responsive"/></a>
       			</div>
 
       			<div class="col-md-4 col-sm-6 col-xs-12">
