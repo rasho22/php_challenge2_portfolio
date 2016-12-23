@@ -140,8 +140,8 @@
 
             <div id="mail"class="col-md-6 col-sm-12 col-xs-12"> 
                <i class="fa fa-envelope"></i> 
-               <p><a href="#">rasho80@hotmail.com</a></p> 
-               <p><a href="#">ab_rasho@yahoo.fr</a></p> 
+               <p><a href="contact.php">rasho80@hotmail.com</a></p> 
+               <p><a href="contact.php">ab_rasho@yahoo.fr</a></p> 
             </div> 
  
             <div id="phone" class="col-md-6 col-sm-12 col-xs-12"> 
