@@ -2,14 +2,6 @@
 <html>
 <head>
   <title>Portfolio AbdulRahman RASHO</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -34,44 +26,44 @@
             <div class="carousel-inner" role="listbox"> 
  
               <div class="item active"> 
-                <img src="img/fdl.png"  width="460" height="345"> 
+                <a href="#"><img src="img/fdl.png"  width="460" height="345"></a>
                 <div class="carousel-caption"> 
-                  <p><a href="#">Projet prefessionel/Fedala Décoration & Traiteur</a></p> 
+                  <p>Projet prefessionel/Fedala Décoration & Traiteur</p> 
                 </div> 
               </div> 
  
               <div class="item"> 
-                <img src="img/challenge2.png"  width="460" height="345"> 
+                <a href="pastime"><img src="img/pastime.png"  width="460" height="345"> </a>
                 <div class="carousel-caption"> 
-                  <p><a href="#">Challenge Pastime /html et css</a></p> 
+                  <p>Challenge Pastime /html et css</p> 
                 </div> 
               </div> 
      
               <div class="item"> 
-                <img src="img/challenge5.png"  width="460" height="345"> 
+                <a href="MMXIV"><img src="img/challenge5.png"  width="460" height="345"></a> 
                 <div class="carousel-caption"> 
-                  <p><a href="#">Challenge Progeny MMXIV /bottstrap</a></p> 
+                  <p>Challenge Progeny MMXIV /bottstrap</p> 
                 </div> 
               </div> 
  
               <div class="item"> 
-                <img src="img/mac.png"  width="460" height="345"> 
+                <a href="#"><img src="img/mac.png"  width="460" height="345"></a> 
                 <div class="carousel-caption"> 
-                  <p><a href="#">TEAM{AC-GYVER INC;}</a></p> 
+                  <p> TEAM{AC-GYVER INC;}</p> 
                 </div> 
               </div> 
 
               <div class="item"> 
-                <img src="img/origami.png"  width="460" height="345"> 
+                <a href="#"><img src="img/origami.png"  width="460" height="345"></a> 
                 <div class="carousel-caption"> 
-                  <p><a href="#">ORIGAMI</a></p> 
+                  <p> ORIGAMI</p> 
                 </div> 
               </div>   
 
               <div class="item"> 
-                <img src="img/challenge1.png"  width="460" height="345"> 
+                <a href="createpro"><img src="img/challenge1.png"  width="460" height="345"> </a>
                 <div class="carousel-caption"> 
-                  <p><a href="#">CREATE PRO</a></p> 
+                  <p>CREATE PRO</p> 
                 </div> 
               </div> 
 

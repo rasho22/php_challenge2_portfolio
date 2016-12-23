@@ -1,15 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-  <title>Projects/Portfolio AbdulRahman RASHO</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Technos/Portfolio AbdulRahman RASHO</title>
 </head>
 <body>
 	<div class="container-fluid">
