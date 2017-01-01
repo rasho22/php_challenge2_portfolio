@@ -54,7 +54,7 @@
               </div>
 
               <div class="item">
-                <a href="briefing"><img src="img/origami.png"  width="460" height="345"></a> 
+                <a href="briefing"><img src="img/origami.png"  width="460" height="345"></a>
                 <div class="carousel-caption">
                   <p> ORIGAMI</p>
                 </div>
@@ -138,27 +138,16 @@
           </marquee>
           <div class="hr"><hr/></div>
 
-<<<<<<< HEAD
-            <div id="mail"class="col-md-6 col-sm-12 col-xs-12"> 
-               <i class="fa fa-envelope"></i> 
-               <p><a href="contact.php">rasho80@hotmail.com</a></p> 
-               <p><a href="contact.php">ab_rasho@yahoo.fr</a></p> 
-            </div> 
- 
-            <div id="phone" class="col-md-6 col-sm-12 col-xs-12"> 
-              <i class="fa fa-phone"></i> 
-               <p><a href="#">06.52.82.18.72</a></p>  
-=======
+
             <div id="mail"class="col-md-6 col-sm-12 col-xs-12">
                <i class="fa fa-envelope"></i>
-               <p><a href="#">rasho80@hotmail.com</a></p>
-               <p><a href="#">ab_rasho@yahoo.fr</a></p>
+               <p><a href="contact.php">rasho80@hotmail.com</a></p>
+               <p><a href="contact.php">ab_rasho@yahoo.fr</a></p>
             </div>
 
             <div id="phone" class="col-md-6 col-sm-12 col-xs-12">
               <i class="fa fa-phone"></i>
                <p><a href="#">06.52.82.18.72</a></p>
->>>>>>> 48441d93a7955bf4ffee42c9abe7917be4c60dcd
             </div>
 
         </div>

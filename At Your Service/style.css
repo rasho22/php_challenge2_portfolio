@@ -19,7 +19,7 @@
 	color: #f05f40;
 }
 #navbar{
-	float: right;
+	float:right;;
 
 }
 #navbar li{
@@ -43,11 +43,11 @@
 	font-size: 100px;
 	padding-right: 20px;
 	color: white;
-	
+
 }
 .souligne1{
 	width: 50px;
-	background-color:#f05f40; 
+	background-color:#f05f40;
 	height:4px;
 	border: none;
 	margin-top:30px;
@@ -61,7 +61,7 @@
 	color: white;
 }
 #button-orange{
-	background-color: #f05f40; 
+	background-color: #f05f40;
 	margin-top: 20px;
 
 }
@@ -88,7 +88,7 @@
 }
 .souligne2{
 	width: 50px;
-	background-color:#fff; 
+	background-color:#fff;
 	height:4px;
 	border: none;
 	margin:0 auto;
@@ -107,7 +107,7 @@
 
 .souligne{
 	width: 50px;
-	background-color:#f05f40; 
+	background-color:#f05f40;
 	height:4px;
 	border: none;
 	margin:0 auto;
@@ -126,19 +126,19 @@
 		float: left;
 		width: 100%;
 		height: 250px;
-		
+
 	}
 	.text1{
-		background:#FFF; 
+		background:#FFF;
 		opacity:0;
 	}
 
 	.pic1:hover .text1{
-		opacity:0.6; 
+		opacity:0.6;
 		text-align:center;
 		color:#f05f40;
 		font-size:30px;
-		padding:80px; 
+		padding:80px;
 		height: 250px;
 	}
 	.pic2{
@@ -149,16 +149,16 @@
 		height: 250px;
 	}
 	.text2{
-		background:#FFF; 
+		background:#FFF;
 		opacity:0;
 
 	}
 	.pic2:hover .text2{
-		opacity:0.6; 
+		opacity:0.6;
 		text-align:center;
 		color:#f05f40;
 		font-size:30px;
-		padding:80px; 
+		padding:80px;
 		height: 250px;
 	}
 	.pic3{
@@ -169,15 +169,15 @@
 		height: 250px;
 	}
 	.text3{
-		background:#FFF; 
+		background:#FFF;
 		opacity:0;
 	}
 	.pic3:hover .text3{
-		opacity:0.6; 
+		opacity:0.6;
 		text-align:center;
 		color:#f05f40;
 		font-size:30px;
-		padding:80px; 
+		padding:80px;
 		height: 250px;
 	}
 	.pic4{
@@ -190,15 +190,15 @@
 		height: 250px;
 	}
 	.text4{
-		background:#FFF; 
+		background:#FFF;
 		opacity:0;
 	}
 	.pic4:hover .text4{
-		opacity:0.6; 
+		opacity:0.6;
 		text-align:center;
 		color:#f05f40;
 		font-size:30px;
-		padding:80px; 
+		padding:80px;
 		height: 250px;
 	}
 	.pic5{
@@ -206,19 +206,19 @@
 		background-repeat: no-repeat;
 		float: left;
 		width: 100%;
-		height: 250px;	
+		height: 250px;
 	}
 	.text5{
-		background:#FFF; 
+		background:#FFF;
 		opacity:0;
 	}
 	.pic5:hover .text5{
 		text-align: center;
-		opacity:0.6; 
+		opacity:0.6;
 		color:#f05f40;
 		font-size:30px;
 		padding:80px;
-		height: 250px; 
+		height: 250px;
 	}
 	.pic6{
 		background: url(img/6.jpg);
@@ -227,21 +227,21 @@
 		width: 100%;
 		height: 250px;
 	}
-	
+
 	.text6{
-		background:#FFF; 
+		background:#FFF;
 		opacity:0;
 	}
 	.pic6:hover .text6{
 		text-align: center;
-		opacity:0.6; 
+		opacity:0.6;
 		color:#f05f40;
 		font-size:30px;
-		padding:80px; 
+		padding:80px;
 		height: 250px;
 	}
 
-	
+
 #FreeD{
 
 	padding-top: 50px;
@@ -249,7 +249,7 @@
 	min-width: 100%;
 	padding: 0 0 0 0px;
 	margin: 0 0 0 0px;
-	background-color: black; 
+	background-color: black;
 	height: 215px;
 }
 
