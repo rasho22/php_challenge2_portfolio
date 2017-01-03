@@ -40,7 +40,7 @@
               </div>
 
               <div class="item">
-                <a href="MMXIV"><img src="img/challenge5.png"  width="460" height="345"></a>
+                <a href="mmv"><img src="img/challenge5.png"  width="460" height="345"></a>
                 <div class="carousel-caption">
                   <p>Challenge Progeny MMXIV /bottstrap</p>
                 </div>
@@ -61,7 +61,7 @@
               </div>
 
               <div class="item">
-                <a href="createpro"><img src="img/challenge1.png"  width="460" height="345"> </a>
+                <a href="create"><img src="img/challenge1.png"  width="460" height="345"> </a>
                 <div class="carousel-caption">
                   <p>CREATE PRO</p>
                 </div>

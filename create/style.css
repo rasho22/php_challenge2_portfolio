@@ -1,0 +1,162 @@
+
+html{
+	background-image:url(images/bg.jpg);
+	min-width : 1400px;
+	min-height: 1010px;
+	background-attachment:fixed;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.site{
+	margin-left: 130px;
+	margin-top: -18px;
+}
+.section_top{
+	text-align: center;
+}
+.top{
+	background-color: black;
+	width : 1020px;
+	height: 330px;
+
+}
+.navbar{
+	margin: 0px;
+	width : 1020px;
+	height: 60px;
+	text-align: center;
+
+}
+
+/******navbar*********/
+
+.navbar ul {
+    list-style-type: none;
+    margin-left: 130px;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+span {
+	color : #cfa205;
+} 
+/***********Header***********/
+.header{
+	width : 1020px;
+	height: 260px;
+}
+
+h1{
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 133px;
+	color: #cfa205;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+}
+.under_header{
+	color: #cfa205;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+/***************rézo**********/
+
+.rezo{
+	width: 1020px;
+	height: 60px;
+	background-color:#e8e8e8;
+	padding: 0px;
+	margin: 0px;
+	margin-top: -18px;
+}
+
+.rezo ul{
+	margin-left:400px;
+	list-style-type: none;
+    padding: 0px;
+}
+.rezo li{
+	float: left;
+}
+
+.rezo li a{
+	display: block;
+    color: white;
+    text-decoration: none;
+    margin:5px;
+    padding-top: 10px;
+}
+
+/******txt************/
+.section{
+	background-color: #FFFFFF;
+	width: 1020px;
+}
+.section_txt{
+	width: 900px;
+	height: 150px;
+	border-bottom: 2px solid #e8e8e8;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h3{
+	line-height: 2;
+	color: #7a7a7a;
+	font-size: 18px;
+	padding: 0px;
+}
+/*************section img*******/
+.section_img{
+	width: 900px;
+	height: 480px;
+	position: relative;
+	padding-left: 60px;
+	padding-top: 50px;
+}
+.img{
+	width: 260px;
+	height: 195px;
+
+}
+
+.img_left{
+	position: absolute;
+	width: 260px;
+	height: 480px;
+	float: left;
+}
+.img_centre{
+	padding-left: 320px;
+	position: absolute;
+	width: 260px;
+	height: 480px;
+	float: left;
+}
+.img_right{
+	padding-left: 645px;
+	position: absolute;
+	width: 260px;
+	height: 480px;
+	float:left;
+}
+p{
+	color: #7a7a7a;
+}
